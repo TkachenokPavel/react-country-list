@@ -1,5 +1,15 @@
-export const CountryList = () => {
+import { ICountry } from "../types"
+
+interface IProps {
+    countries: ICountry[]
+}
+
+export const CountryList = ({ countries }: IProps) => {
     return (
-        <div></div>
+        <ul>
+            {countries.map(country => {
+                return <li>{country.name}</li>
+            })}
+        </ul>
     )
 }
