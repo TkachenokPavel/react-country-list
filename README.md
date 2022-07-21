@@ -1,4 +1,4 @@
-# ABOUT PROJECT
+# React-Country-List
 This project contains country list with flags, names, capitals, areas and populations.
 
 * [Watch website](https://tkachenokpavel.github.io/react-country-list/)
