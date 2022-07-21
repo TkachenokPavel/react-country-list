@@ -1,6 +1,6 @@
-import { ICountry } from "../types";
+import { ICountry, ICountryApi } from "../types";
 
-export const transformedCountries = (countriesData): ICountry[] => {
+export const transformCountries = (countriesData: ICountryApi[]) => {
     return countriesData.map((country): ICountry => ({
         name: country.name.common,
         capital: country.capital[0],
