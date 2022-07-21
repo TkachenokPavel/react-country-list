@@ -8,7 +8,7 @@ interface IProps {
 export const CountryList = ({ countries }: IProps) => {
     return (
         <ul className="list-group">
-            {countries.map((country, index) => {
+            {countries.map(country => {
                 return <CountryItem key={country.name} country={country} />
             })}
         </ul>
