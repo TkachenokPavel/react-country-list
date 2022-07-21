@@ -1,4 +1,5 @@
 import { ICountry } from "../types"
+import { CountryItem } from "./CountryItem"
 
 interface IProps {
     countries: ICountry[]
@@ -6,9 +7,9 @@ interface IProps {
 
 export const CountryList = ({ countries }: IProps) => {
     return (
-        <ul>
+        <ul className="list-group container">
             {countries.map(country => {
-                return <li>{country.name}</li>
+                return <CountryItem country={country} />
             })}
         </ul>
     )
