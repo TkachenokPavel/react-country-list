@@ -9,7 +9,7 @@ export const CountryList = ({ countries }: IProps) => {
     return (
         <ul className="list-group">
             {countries.map((country, index) => {
-                return <CountryItem key={index} country={country} />
+                return <CountryItem key={country.name} country={country} />
             })}
         </ul>
     )
