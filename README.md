@@ -5,7 +5,7 @@ This project contains country list with flags, names, capitals, areas and popula
 
 ## Preview
 
-![Image](https://github.com/TkachenokPavel/react-country-list/blob/development/react-country-list.png)
+![Image](https://github.com/TkachenokPavel/react-country-list/blob/main/react-country-list.png)
 
 ## Built With
 * React
