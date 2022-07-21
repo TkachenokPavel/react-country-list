@@ -5,7 +5,7 @@ This project contains country list with flags, names, capitals, areas and popula
 
 ## Preview
 
-![Image](https://i.postimg.cc/sfqmqv2H/2022-06-22-221036742.png)
+![Image](https://github.com/TkachenokPavel/react-country-list/blob/development/react-country-list.png)
 
 ## Built With
 * React
@@ -13,7 +13,8 @@ This project contains country list with flags, names, capitals, areas and popula
 
 ## Installation
 
-Install Node.js [from here](https://nodejs.org)
+Install Node.js [from here](https://nodejs.org).
+
 Clone repository from [github](https://github.com/TkachenokPavel/react-country-list.git) in terminal
 
 ```bash
