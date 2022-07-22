@@ -10,12 +10,28 @@ export interface ICountry {
 }
 
 export interface ICountryApi {
-    name: { common: string },
+    flags: ICountryFlagsApi,
+    name: ICountryNameApi,
     capital: string[],
-    population: number,
-    flags: { svg: string },
-    area: number,
     region: string
+    area: number,
+    population: number,
+}
+
+interface ICountryFlagsApi {
+    png: string,
+    svg: string,
+}
+
+interface ICountryNameApi {
+    common: string,
+    official: string,
+    nativeName: {
+        [key: string]: {
+            official: string,
+            common: string
+        } | undefined
+    }
 }
 
 export enum Color {
